@@ -1,0 +1,22 @@
+    1  ls
+    2  pwd
+    3  mkdir examplerDir
+    4  ls
+    5  cd examplerDir/
+    6  touch a.txt
+    7  ls
+    8  cat a.txt 
+    9  echo >> "Hello world" a.txt 
+   10  cat a.txt 
+   11  vi a.txt 
+   12  echo > "Hello World" a.txt 
+   13  cat a.txt 
+   14  man echo
+   15  wget www.github.com
+   16  ls
+   17  cat index.html 
+   18  mkdir gitrepo
+   19  cd gitrepo/
+   20  mkdir Worksheet1
+   21  cd Worksheet1/
+   22  history >cmd.log
