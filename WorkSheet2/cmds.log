@@ -1,0 +1,8 @@
+    1  grep -i -w "United States" Global\ YouTube\ Statistics.csv 
+    2* grep -i "Music" Global\ YouTube\ Statistics.csv 
+    3  grep -i "Music" Global\ YouTube\ Statistics.csv | wc -l
+    4  grep -i "Music" Global\ YouTube\ Statistics.csv | wc -w
+    5  grep -i "Music" Global\ YouTube\ Statistics.csv | wc -l> counts.txt
+    6  grep -i "Music" Global\ YouTube\ Statistics.csv | wc -w>> counts.txt 
+    7  vi counts.txt 
+    8  history > cmds.log
