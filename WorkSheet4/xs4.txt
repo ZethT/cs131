@@ -1,0 +1,11 @@
+#!/bin/bash
+clear
+alias l='ls -ltr'
+alias w='ls -l| wc -l'
+l
+w
+country_list=("United States" "India")
+for item in {country_list[@]}; do
+	filename="${iteml// /_}"
+	awk -F',' 'NR > 1 {print $1, $2, $8}' Global\ YouTube\ Statistics.csv| grep $item |awk '{ sum += $2 } END {print sum / NR}'|bc ./Subscribers/$filename.txt
+	done
