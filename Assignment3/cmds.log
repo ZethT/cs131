@@ -1,0 +1,459 @@
+    1  ls
+    2  pwd
+    3  mkdir examplerDir
+    4  ls
+    5  cd examplerDir/
+    6  touch a.txt
+    7  ls
+    8  cat a.txt 
+    9  echo >> "Hello world" a.txt 
+   10  cat a.txt 
+   11  vi a.txt 
+   12  echo > "Hello World" a.txt 
+   13  cat a.txt 
+   14  man echo
+   15  wget www.github.com
+   16  ls
+   17  cat index.html 
+   18  mkdir gitrepo
+   19  cd gitrepo/
+   20  mkdir Worksheet1
+   21  cd Worksheet1/
+   22  history >cmd.log
+   23  ls
+   24  cat cmd.log 
+   25  git init
+   26  git add .
+   27  git commit -m "Initial commit"
+   28    git config --global user.email "you@example.com"
+   29  git config --global user.email "zethtang@gmail.com"
+   30  git config --global user.name "Zeth Tang"
+   31  git commit -m "Initial commit"
+   32  git status
+   33  git remote add origin https://github.com/ZethT/cs131.git
+   34  git branch -M main
+   35  git push -u origin main
+   36  git checkout -b newBranch
+   37  git branch
+   38  git remote add origin https://github.com/ZethT/cs131.git
+   39  git push -u origin main
+   40  git push -u origin main git remote -v
+   41  git remote set-url orgin http://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@github.com/ZethT/cs131
+   42  git remote set-url origin http://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@github.com/ZethT/cs131
+   43  git push origin main
+   44  git remote set-url origin https://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@github.com/ZethT/cs131
+   45  git push origin main
+   46  ls
+   47  ls -al
+   48  cd examplerDir/
+   49  ls
+   50  ls -l
+   51  chmod 777 a.txt 
+   52  ls -l
+   53  ls
+   54  cd gitrepo/
+   55  ls
+   56  cd Worksheet1/
+   57  LS
+   58  ls
+   59  mv cmd.log ..
+   60  ls
+   61  cd ..
+   62  ls
+   63  cat cmd.log 
+   64  git add -a
+   65  ls
+   66  ls -a
+   67  cd Worksheet1/
+   68  ls
+   69  ls -a
+   70  mv .git ..
+   71  ls
+   72  cd ..
+   73  ls
+   74  mv cmd.log Worksheet1/
+   75  ls
+   76  gid add -a
+   77  ls
+   78  ls -a
+   79  git add -a
+   80  git add -A
+   81  git status
+   82  git push -A
+   83  git push --all
+   84  git checkout
+   85  git branch
+   86  git checkout main
+   87  ls
+   88  ls -a
+   89  cd W
+   90  Worksheet1/
+   91  ls
+   92  ls Worksheet1/
+   93  ls
+   94  mkdir WorkSheet2
+   95  ls
+   96  mv Worksheet1 WorkSheet1
+   97  ls
+   98  cd WorkSheet2
+   99  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  100  man grep
+  101  ls
+  102  cd gitrepo/
+  103  ls WorkSheet2
+  104  cat WorkSheet2/Global\ YouTube\ Statistics.csv 
+  105  cd gitrepo/WorkSheet2
+  106  LS
+  107  ls
+  108  grep -i -w "United State" Global\ YouTube\ Statistics.csv 
+  109  grep -i -w "United State" 'Global YouTube Statistics.csv'
+  110  grep -i -w "United States" Global\ YouTube\ Statistics.csv 
+  111  grep -i "Music" Global\ YouTube\ Statistics.csv 
+  112  grep -i "Music" Global\ YouTube\ Statistics.csv | wc -l
+  113  grep -i "Music" Global\ YouTube\ Statistics.csv | wc -w
+  114  grep -i "Music" Global\ YouTube\ Statistics.csv | wc -l> counts.txt
+  115  grep -i "Music" Global\ YouTube\ Statistics.csv | wc -w>> counts.txt 
+  116  vi counts.txt 
+  117  history > cmds.log
+  118  git add -A
+  119  git push 
+  120  git push --set-upstream origin main
+  121  git push 
+  122  ls
+  123  git status
+  124  git commit -a
+  125  git push
+  126  cd gitrepo/
+  127  cp WorkSheet2/Global\ YouTube\ Statistics.csv  WorkSheet3
+  128  ls
+  129  rm WorkSheet3
+  130  cp WorkSheet2/Global\ YouTube\ Statistics.csv  WorkSheet3:Q
+  131  rm WorkSheet3
+  132  mkdir WorkSheet3
+  133  cp WorkSheet2/Global\ YouTube\ Statistics.csv  WorkSheet3
+  134  ls
+  135  rm WorkSheet3:Q
+  136  ls WorkSheet3
+  137  cd WorkSheet3/
+  138  cd gitrepo/WorkSheet3
+  139  ls
+  140  grep -i -w "highest_monthly_earnings" Global\ YouTube\ Statistics.csv 
+  141  ls
+  142  awk 'NR===1 {for (i=1;i<=NF;i++) if ($i == "highest_monthly_earnings") col=i }{if ($col == grep -E '^(United States|United Kingdom|India)' earnings.csv | sort -t ',' -k3,3nr)}
+  143  grep -E '^(United States|United Kingdom|India)' earnings.csv | sort -t ',' -k3,3nr
+  144  grep -E '^(United States|United Kingdom|India)' Global\ YouTube\ Statistics.csv | sort -t ',' -k3,3nr
+  145  ls
+  146  who
+  147  who | tee /dev/tty/ wc -l
+  148  who | tee /dev/tty | wc -l
+  149  who | wc -l| echo "HELL" >> /dev
+  150  echo "Hello" >> /dev/tty
+  151  who | tee /dev/tty | echo "hello" >> /div/tty
+  152  who | tee /dev/tty | echo "hello" >> /dev/tty
+  153  cat /dev/tty
+  154  vi /dev/tty
+  155  kill -l
+  156  man kill
+  157  job -l
+  158  ps
+  159  ps aux
+  160  clear
+  161  ls
+  162  ls -l
+  163  cd gitrepo/
+  164  ls
+  165  cd WorkSheet2
+  166  ls
+  167  grep -i "Music" "Global YouTube Statistics.csv" "
+  168  "
+  169  man grep
+  170  cd gitrepo/
+  171  ls
+  172  cd WorkSheet3
+  173  cp ../WorkSheet2/Global YouTube Statistics.csv" 
+  174  .
+  175  ".
+  176  cp ../WorkSheet2/Global\ YouTube\ Statistics.csv .
+  177  ls
+  178  cd gitrepo/WorkSheet3/
+  179  grep "United States\|United Kindom\|Indi
+  180  cat Global\ YouTube\ Statistics.csv 
+  181  vi Global\ YouTube\ Statistics.csv 
+  182  head head -n 1 filename
+  183  head -n 1 Global\ YouTube\ Statistics.csv 
+  184  head -l Global\ YouTube\ Statistics.csv 
+  185  head -1 Global\ YouTube\ Statistics.csv 
+  186  cd gitrepo/WorkSheet3
+  187  head -1
+  188  head -1 Global\ YouTube\ Statistics.csv 
+  189  head -1 Global\ YouTube\ Statistics.csv |ln
+  190  head -1 Global\ YouTube\ Statistics.csv |nl
+  191  head -1 Global\ YouTube\ Statistics.csv |tr -s ","
+  192  head -1 Global\ YouTube\ Statistics.csv |tr -s ","|nl
+  193  head -1 Global\ YouTube\ Statistics.csv |tr -s "," " "|nl
+  194  head -1 Global\ YouTube\ Statistics.csv |tr -s "
+  195  df -h
+  196  cd gitrepo/WorkSheet3
+  197  head -1 Global\ YouTube\ Statistics.csv |tr ',' '\n'|cat -n | grep -w -m 1"highest_monthly_earnings" | awk '{print $1}'
+  198  head -1 Global\ YouTube\ Statistics.csv |tr ',' '\n'|cat -n | grep -w -m 1 "highest_monthly_earnings" | awk '{print $1}'
+  199  column_number = $(head -1 Global\ YouTube\ Statistics.csv |tr ',' '\n'|cat -n | grep -w -m 1 "highest_monthly_earnings" | awk '{print $1}')
+  200  column_number=$(head -1 Global\ YouTube\ Statistics.csv |tr ',' '\n'|cat -n | grep -w -m 1 "highest_monthly_earnings" | awk '{print $1}')
+  201  $ column_number
+  202  echo $column_number
+  203  env
+  204  find / .bashrc
+  205  ls
+  206  touch ~/.bashrc
+  207  mkdir gitrepo/WorkSheet4
+  208  cd gitrepo/WorkSheet4
+  209  source ~/.bashrc
+  210  alias l='ls -ltr'
+  211  alias w='ls -l|wc'
+  212  l
+  213  w
+  214  ls
+  215  ls -l
+  216  ls
+  217  ls -l
+  218  touch a
+  219  ls
+  220  ls -l
+  221  w
+  222  alias w='ls -l|wc -l'
+  223  w
+  224  clear
+  225  cd ..
+  226  ls
+  227  rm -rf WorkSheet4
+  228  clear
+  229  mkdir Worksheet4
+  230  rm Worksheet4/
+  231  rm -d  Worksheet4
+  232  ls
+  233  clear
+  234  ls
+  235  mkdir WorkSheet4
+  236  cd WorkSheet4
+  237  alias l='ls -ltr'
+  238  alias w='ls -l| wc -l'
+  239  l
+  240  w
+  241  cp ../WorkSheet3/Global\ YouTube\ Statistics.csv .
+  242  mkdir Subscribers
+  243  touch xs4.txt
+  244  history >> xs4.txt 
+  245  cat xs4.txt 
+  246  "" > xs4.txt 
+  247  " " > xs
+  248  echo '' > xs4.txt 
+  249  rm xs
+  250  cat xs4.txt 
+  251  vi xs4.txt 
+  252  cat xs4.txt 
+  253  vi xs4.txt 
+  254  cd
+  255  ls
+  256  cd gitrepo/WorkSheet4/
+  257  ls
+  258  head -1 Global\ YouTube\ Statistics.csv 
+  259  head -2 Global\ YouTube\ Statistics.csv 
+  260  vi xs4.txt 
+  261  awk -F',' 'NR > 1 {print $1, $2, $8}' Global\ YouTube\ Statistics.csv 
+  262  vi xs4.txt 
+  263  bash xs4.txt 
+  264  vi xs4.txt 
+  265  bash xs4.txt 
+  266  cat xs4.txt 
+  267  vi xs4.txt 
+  268  bash xs4.txt 
+  269  vi xs4.txt 
+  270  bash xs4.txt 
+  271  git add -a
+  272  git add -A
+  273  git commite -m "ws4"
+  274  git commit -m "ws4"
+  275  git push
+  276  ls
+  277  ls -a
+  278  ls gitrepo/
+  279  ls examplerDir/
+  280  rm -fr examplerDir/
+  281  ls
+  282  rm index.html 
+  283  cd gitrepo/
+  284  ls
+  285  cd ..
+  286  cd gitrepo/WorkSheet
+  287  cd gitrepo/WorkSheet1
+  288  LS
+  289  ls
+  290  cd ..
+  291  mv gitrepo/ cs131
+  292  ls
+  293  cd cs131/
+  294  ls
+  295  mkdir Assignment2
+  296  cd ..
+  297  cd cs131/
+  298  cd Assignment2/
+  299  find /ect -type f>one.txt 2>two.txt
+  300  ls
+  301  echo "the above command search for files location and put the result in one.txt and the error message of that command into two.txt"
+  302  cat one.txt
+  303  cat two.txt
+  304  ls /ect
+  305  cd ..
+  306  find /ect -type f>one.txt 2>two.txt
+  307  cat one.txt 
+  308  initializing the system and managing system services
+  309  pgrep -o systemd
+  310  pgrep -o init
+  311  pgrep -o
+  312  pgrep -o -U 1
+  313  ps aux
+  314  wc -l last.fake
+  315  grep f23 last.fake > lastf23.fake
+  316  cd cs131/Assignment3
+  317  clear
+  318  wc -l last.fake
+  319  grep f23 last.fake > lastf23.fake
+  320  wc -l lastf23.fake 
+  321  grep Sun lastf23.fake |awk -F' ' '{print $1}'|sort|uniq| awk '
+BEGIN { print "The list of people who worked on Sunday are:" } 
+{ print $0 }
+END { print "Kudos to these people for putting in the work" }
+' 
+  322  awk -F ':' '{print $1}' lastf23.fake |  awk '
+BEGIN {print "Night Owls List:"}
+{if(($NF>=23)||($NF<=04)){print $1}}
+|sort
+|uniq
+END { print "Night Owls are dope. Please ensure you get enough sleep though."}'
+  323  awk -F ':' '{print $1}' lastf23.fake |  awk '
+BEGIN {print "Night Owls List:"}
+{if(($NF>=23)||($NF<=04)){print $1}}
+|sort|uniq
+awk -F ':' '{print $1}' lastf23.fake | 
+awk '
+  324  BEGIN {print "Night Owls List:"}
+  325  awk -F ':' '{print $1}' lastf23.fake |  awk '
+BEGIN {print "Night Owls List:"}
+{if(($NF>=23)||($NF<=04)){print $1}}'
+  326  awk -F ':' '{print $1}' lastf23.fake |  awk '
+BEGIN {print "Night Owls List:"}
+{if(($NF>=23)||($NF<=04)){print $1}}'
+  327  |sort|uniq
+  328  awk -F ':' '{print $1}' lastf23.fake |  awk '
+BEGIN {print "Night Owls List:"}
+{if(($NF>=23)||($NF<=04)){print $1}}'
+  329  END { 
+  330  |sort|uniq
+  331  print "Night Owls are dope. Please ensure you get enough sleep though."}'
+awk -F ':' '{print $1}' lastf23.fake | 
+awk '
+  332  BEGIN {print "Night Owls List:"}
+  333  {if(($NF>=23)||($NF<=04)){print $1}}'
+  334  END { print ""}'|sort|uniq
+  335  awk -F ':' '{print $1}' lastf23.fake |  awk '
+BEGIN {print "Night Owls List:"}
+{if(($NF>=23)||($NF<=04)){print $1}}'
+  336  END { print ""}'|sort|uniq
+
+'
+  337  awk -F ':' '{print $1}' lastf23.fake |  awk '
+BEGIN {print "Night Owls List:"}
+{if(($NF>=23)||($NF<=04)){print $1}}'
+  338  END { print "Night Owls are dope. Please ensure you get enough sleep though."}'|sort|uniq
+grep f23 last.fake > lastf23.fake
+  339  clear
+  340  awk -F ':' '{print $1}' lastf23.fake |  awk '
+BEGIN {print "Night Owls List:"}
+{if(($NF>=23)||($NF<=04)){print $1}}'
+  341  awk -F ':' '{print $1}' lastf23.fake |  awk '
+BEGIN {print "Night Owls List:"}
+{if(($NF>=23)||($NF<=04)){print $1}}
+END { print "Night Owls are dope. Please ensure you get enough sleep though."}'|sort|uniq
+  342  awk -F ':' '{print $1}' lastf23.fake |sort| awk '
+BEGIN {print "Early Birds List:"}
+{if(($NF>04)||($NF<=09)){print $1}}
+END { print "Early Birds are dope. Please ensure you get enough sleep though."}'|uniq
+  343  awk -F ':' '{print $1}' lastf23.fake |sort| awk '
+BEGIN {print "Early Birds List:"}
+{if(($NF>04)||($NF<=09)){print $1}}
+END { print "Early Birds are dope. Please ensure you get enough sleep though."}'
+  344  cat lastf23.fake 
+  345  cat lastf23.fake |sort
+  346  clear
+  347  awk -F ':' '{print $1}' lastf23.fake |sort| awk '
+BEGIN {print "Early Birds List:"}
+{if(($NF>04)||($NF<=09)){print $1}}
+END { print "Early Birds are dope. Please ensure you get enough sleep though."}'|uniq
+  348  awk -F ':' '{print $1}' lastf23.fake |sort 
+  349  awk '
+BEGIN {print "Night Owls List:"}
+{if(($NF>=23)||($NF<=04)){print $1}}
+END { print "Night Owls are dope. Please ensure you get enough sleep though."}'|uniq
+  350  awk -F ':' '{print $1}' lastf23.fake |sort 
+  351  awk '
+BEGIN {print "Night Owls List:"}
+{if(($NF>=23)||($NF<=04)){print $1}}
+END { print "Night Owls are dope. Please ensure you get enough sleep though."}'
+  352  awk -F ':' '{print $1}' lastf23.fake|sort 
+  353  awk -F ':' '{print $1}' lastf23.fake |sort| awk '
+BEGIN {print "Early Birds List:"}
+{if(($NF>04)||($NF<=09)){print $1}}
+END { print "Early Birds are dope. Please ensure you get enough sleep though."}'|uniq
+  354  awk -F ':' '{print $1}' lastf23.fake|sort 
+  355  awk '
+BEGIN {print "Night Owls List:"}
+{if(($NF>=23)||($NF<=04)){print $1}}
+  356  awk '
+BEGIN {print "Night Owls List:"}
+{if(($NF>=23)||($NF<=04)){print $1}}awk -F ':' '{print $1}' lastf23.fake|sort| 
+awk '
+  357  BEGIN {print "Night Owls List:"}
+  358  {if(($NF>=23)||($NF<=04)){print $1}}
+  359  END { print "Night Owls are dope. Please ensure you get enough sleep though."}'|uniq
+  360  awk -F ':' '{print $1}' lastf23.fake|sort| awk 'BEGIN {print "Night Owls List:"}
+{if(($NF>=23)||($NF<=04)){print $1}}
+END { print "Night Owls are dope. Please ensure you get enough sleep though."}'
+  361  awk -F ':' '{print $1}' lastf23.fake|sort| awk 'BEGIN {print "Night Owls List:"}
+{if(($NF>=23)||($NF<=04)){print $1}}
+END { print "Night Owls are dope. Please ensure you get enough sleep though."}'|uniq
+  362  awk -F ':' '{print $1}' lastf23.fake|sort| awk 'BEGIN {print "Night Owls List:"}
+{if(($NF>=23)||($NF<=04)){print $1}}
+END { print "Night Owls are dope. Please ensure you get enough sleep though."}'|uniq
+  363  awk -F ':' '{print $1}' lastf23.fake |sort| awk '
+BEGIN {print "Early Birds List:"}
+{if(($NF>=05)&&($NF<=09)){print $1}}
+END { print "Early Birds are dope. Please ensure you get enough sleep though."}'|uniq
+  364  awk -F ' ', '{grep ^[t]|print $1}' 
+  365  awk -F ' ', '{grep ^[t]|print $1}' lastf23.fake 
+  366  awk -F ' ', '{print}' lastf23.fake 
+  367  awk '$1 ~ /^t/' data.txt
+  368  awk '$1 ~ /^t/' lastf23.fake 
+  369  awk '$1 ~ /^t/ {print $1}' lastf23.fake
+  370  awk '$1 ~ /^t/ {print $1}' lastf23.fake|uniq
+  371  awk '$1 ~ /^t/ {print $1}' lastf23.fake|sort|uniq
+  372  awk -F ' ', '{
+If($1 ^[a])&&(`expr $69/2`)
+print $1
+}'
+  373  awk -F ':' '$1 ~ /^a/ && $3 % 2 == 0 { print $1 }' passwd.fake
+  374  cat passwd.fake 
+  375  grep ^[a] passwd.fake 
+  376  vi passwd.fake 
+  377  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/awkdata/passwd.fake
+  378  rm passwd.fake
+  379  mv passwd.fake.1 passwd.fake
+  380  cat passwd.fake 
+  381  awk -F ':' '$1 ~ /^a/ { print $1 } pa
+  382  grep ^[a] passwd.fake 
+  383  awk -F ':' '$1 ~ /^a/ { print $1 } ' passwd.fake 
+  384  awk -F ':' '$1 ~ /^a/ && $2 % 2 == 0 { print $1 }' passwd.fake
+  385  sed 's/[a-zA-Z0-9 ]//g' passwd.fake | sort -u
+  386  touch
+  387  touch Assignment3.txt
+  388  vi Assignment3.txt
+  389  cat cmds.log
+  390  history>cmds.log
